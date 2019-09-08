@@ -1,0 +1,14 @@
+<launch>
+
+ 
+  <!--FOR GMAPPING-->
+  <include file="$(find newlucas)/launch/mapping.launch" />
+  <!--FOMOVE_BASE-->
+  <include file="$(find newlucas)/launch/include/move_base_2wd.launch" />
+  <!--FOR EXPLORATION-->
+  <include file="$(find explore_lite)/launch/explore.launch" />
+  
+<!-- Run RVIZ -->
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find newlucas)/rviz/explore.rviz" output="screen"/>
+
+</launch>

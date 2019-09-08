@@ -1,0 +1,36 @@
+
+CRITICAL NOTE: 
+	  THIS ROS PACKAGE IS UNDER CONTINUOUS DEVELOPMENT AND REPAIR TILL NOW.
+		***********************
+- First Published in --> 8 Septemper 2019
+- Last Update in     --> 8 Septemper 2019
+                ************************
+INFO:
+----
+ This package implements a simple 2wd robot with LASER SCANNER / CAMERA to use to for SLAM applications GMAPPING/NAVIGATION WITH A MAP/ EXPLORATION.
+ Any one can use this package in his own robot using only his .xacro and .gazebo files and replace the existing files in the urdf and meshes folders with his own files. Then, modifiy the names of robot and frames in every file according to his usage requirments.
+
+	          ***********************
+Reuired PACKAGES:
+-----------------
+1- explore_lite (Must be installed as it doesn't come with ROS full disktop installation)
+2- gmapping
+3- AMCL
+4- Move_Base
+3- Map_Server
+                   ***********************
+Launch files OPTIONS:
+----------------------
+1- For running the ROBOT               ==> launch newlucas launch file.
+2- For running the ROBOT and gmapping  ==> launch newlucas and mapping launch files.
+3- For running the ROBOT and navigation==> launch newlucas and navigate launch files.
+4- For running the ROBOT and exploration ==> launch newlucas and explore launch file.
+	          ************************
+
+Author:
+------
+ - ElSayed Mohammed Mostafa ( sayedmmostafa255@gmail.com ) (Whatsapp: +201126411339)
+ - Undergraduate Student, CIE Program, University of science and technology, Zewail City, Egypt
+ 
+
+
