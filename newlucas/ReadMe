@@ -11,7 +11,7 @@ INFO:
  Any one can use this package in his own robot using only his .xacro and .gazebo files and replace the existing files in the urdf and meshes folders with his own files. Then, modifiy the names of robot and frames in every file according to his usage requirments.
 
 	          ***********************
-Reuired PACKAGES:
+Required PACKAGES:
 -----------------
 1- explore_lite (Must be installed as it doesn't come with ROS full disktop installation)
 2- gmapping
